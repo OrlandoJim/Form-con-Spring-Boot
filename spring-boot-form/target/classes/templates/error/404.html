@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lo sentimos, página no encontrada 404!</title>
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+</head>
+<body>
+<h2>Ooops! página no encontrada</h2>
+<div th:text="${error}"></div>
+<div th:text="${status}"></div>
+<div th:text="${timestamp}"></div>
+<hr>
+<div th:text="${path}"></div>
+</body>
+</html>
